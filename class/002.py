@@ -1,0 +1,7 @@
+A = input()
+print(type(A))
+B = int(input())
+print(type(B))
+x , y = input().split()
+data =int(input("请输入一个整型数值N："))
+print(type(data), data)
