@@ -28,6 +28,9 @@ n = int(input())
 matrix = [list(map(int, input().split())) for _ in range(n)]
 # TODO:为什么下划线可以作为变量使用？与正常变量的区别在哪里？
 
-total = sum(matrix[i][j] for i in range(n-1) for j in range(n-1) if i + j != n-1)
+total = sum(matrix[i][j]
+            for i in range(n-1)
+            for j in range(n-1)
+            if i + j != n-1)
 
 print(f"{total:.2f}")
