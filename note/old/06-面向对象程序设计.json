@@ -1,0 +1,222 @@
+[
+  {
+    "id": 1,
+    "question": "在以下C类继承A类和B类的格式中,正确的是哪一项?",
+    "options": [
+      "class C extends A, B:",
+      "class C implements A, B:",
+      "class C(A, B):",
+      "class C(A:B):"
+    ],
+    "answer": "C"
+  },
+  {
+    "id": 2,
+    "question": "对下面的代码分析正确的是( )。\nclass A:\n    def __init__(self):\n        self.x = 1\n        self.__y = 1\n    def getY(self):\n        return self.__y\na = A()\na.__y = 45\nprint(a.getY())",
+    "options": [
+      "程序运行结果为 45。",
+      "程序运行结果为 1。",
+      "程序有错误,因为y是私有的,不能在类之外访问。",
+      "程序有错误,不能使用__y作为变量名。"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": 3,
+    "question": "在类中，具有4个形式参数的实例方法通常在调用时有( )个实际参数。",
+    "options": [
+      "不确定",
+      "3",
+      "4",
+      "5"
+    ],
+    "answer": "C"
+  },
+  {
+    "id": 4,
+    "question": "关于下面程序的说法中，不正确的是哪一项？\nclass Hello:\n    def __init__(self, id, color=\"yellow\"):\n        self.id = id\n        self.color = color\n    def Hello(self, weight):\n        return 20+weight\n# 主程序\nh=Hello(100)\nprint(h.color)",
+    "options": [
+      "Hello(self, weight) 是成员方法",
+      "代码 h=Hello(100)无法通过编译",
+      "初始化方法是__init__(self, id, color=\"yellow\")",
+      "print(h.color)语句的输出结果是 yellow"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": 5,
+    "question": "Python中定义私有属性的方法是哪一项？",
+    "options": [
+      "使用__XX定义属性名",
+      "使用__XX__定义属性名",
+      "使用public关键字",
+      "使用 private 关键字"
+    ],
+    "answer": "A"
+  },
+  {
+    "id": 6,
+    "question": "将细节隐藏在类定义中，术语称为（）。",
+    "options": [
+      "虚函数",
+      "封装",
+      "子类化",
+      "继承"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": 7,
+    "question": "下面代码段运行的结果是()。\nclass A:\n    def __init__(self):\n        self.i = 1\n    def m(self):\n        self.i = 10\nclass B(A):\n    def m(self):\n        self.i +=1\n        return self.i\ndef main():\n    b = B()\n    print(b.m())\nmain()",
+    "options": [
+      "2",
+      "3",
+      "1",
+      "10"
+    ],
+    "answer": "A"
+  },
+  {
+    "id": 8,
+    "question": "()不是面向对象程序设计的基本特征之一。",
+    "options": [
+      "多态",
+      "封装",
+      "抽象",
+      "继承"
+    ],
+    "answer": "C"
+  },
+  {
+    "id": 9,
+    "question": "__init__方法的作用是哪一项？",
+    "options": [
+      "引用对象",
+      "显示对象初始信息",
+      "初始化对象",
+      "初始化类"
+    ],
+    "answer": "C"
+  },
+  {
+    "id": 10,
+    "question": "对下面的代码分析正确的是（）。\nclass A:\n    def __init__(self, s):\n        self.s = s\n    def print(self):\n        print(s)\na= A(\"Welcome\")\na.print()",
+    "options": [
+      "程序有错误，类 A 中print(self)方法应该修改为 print(s)。",
+      "程序有错误，类 A 中print(self)方法应该修改为 print(self, s)。",
+      "程序有错误，类 A 方法print中print(s)语句应该修改为 print(self.s)。",
+      "程序有错误，因为类 A 中没有构造方法。"
+    ],
+    "answer": "C"
+  },
+  {
+    "id": 11,
+    "question": "下面代码段运行的结果是()。\nclass A:\n    def __init__(self, i=1):\n        self.i = 1\nclass B(A):\n    def __init__(self, j=2):\n        super().__init__()\n        self.j = j\ndef main():\n    b = B()\n    print(b.i,b.j)\nmain()",
+    "options": [
+      "0 0",
+      "2 1",
+      "0 1",
+      "1 2"
+    ],
+    "answer": "D"
+  },
+  {
+    "id": 12,
+    "question": "对下面的代码分析正确的是()。\nclass A:\n    def __init__(self):\n        self.x = 1\n        self.__y = 1\n    def getY(self):\n        return self.__y\na = A()\nprint(a.x)",
+    "options": [
+      "程序有错误,不能使用_y作为变量名。",
+      "程序运行结果为0。",
+      "程序有错误,因为y是私有的,不能在类之外访问。",
+      "程序运行结果为1。"
+    ],
+    "answer": "D"
+  },
+  {
+    "id": 13,
+    "question": "对下面的代码分析正确的是（ ）。\nclass A:\n    def __init__(self):\n        self. x = 1\n        self.__y = 1\n    def getY(self):\n        return self.__y\na = A()\nprint(a.__y)",
+    "options": [
+      "程序运行结果为1。",
+      "程序运行结果为0。",
+      "程序有错误,因为 y 是私有的,不能在类之外访问。",
+      "程序有错误，不能使用__y作为变量名。"
+    ],
+    "answer": "C"
+  },
+  {
+    "id": 14,
+    "question": "下面代码段运行的结果是()。\ndef main():\n    myCount = Count()\n    times= 0\n    for i in range(0, 100):\n        increment(myCount, times)\n    print(myCount.count, times)\ndef increment(c, times):\n    c.count += 1\n    times += 1\nclass Count:\n    def __init__(self):\n        self.count = 0\nmain()",
+    "options": [
+      "101 0",
+      "100 0",
+      "100 100",
+      "101 101"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": 15,
+    "question": "不属于面向对象程序设计的特征的是哪一项？",
+    "options": [
+      "重写",
+      "封装",
+      "多态",
+      "继承"
+    ],
+    "answer": "A"
+  },
+  {
+    "id": 16,
+    "question": "下面代码段运行的结果是()。\nclass A:\n    def __new__(cls):\n        print(\"A's __new__() invoked\")\n        return object().__new__(cls)\n    def __init__(self):\n        print(\"A's __init__() invoked\")\nclass B(A):\n    def __new__(cls):\n        print(\"B's __new__() invoked\")\n        return object().__new__(cls)\n    def __init__(self):\n        print(\"B's __init__() invoked\")\ndef main():\n    b=B()\nmain()",
+    "options": [
+      "A's __new__() invoked\nA's __init__() invoked\nB's __new__() invoked\nB's __init__() invoked",
+      "B's __new__() invoked\nB's __init__() invoked",
+      "A's __new__() invoked\nA's __init__() invoked",
+      "A's __new__() invoked\nB's __init__() invoked"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": 17,
+    "question": "下面哪个选项是正确的？",
+    "options": [
+      "每个类中总有一个默认构造方法",
+      "一个类中如果没有定义构造方法,那么系统就会提供一个默认构造方法",
+      "Python中的构造方法名与类名是相同的",
+      "类中至少定义一个构造方法"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": 18,
+    "question": "在Python中，使用保留字（ ）来定义类。",
+    "options": [
+      "init",
+      "def",
+      "class",
+      "object"
+    ],
+    "answer": "C"
+  },
+  {
+    "id": 19,
+    "question": "下列选项中，用于标识为静态方法是哪一项？",
+    "options": [
+      "@staticmethod",
+      "@privatemethod",
+      "@classmethod",
+      "@instancemethod"
+    ],
+    "answer": "A"
+  },
+  {
+    "id": 20,
+    "question": "定义一个类的“私有”方法，Python 的惯例是使用（ ）开始方法的名称。",
+    "options": [
+      "private",
+      "两个下划线(__)",
+      "井号(#)",
+      "一个下划线(_)"
+    ],
+    "answer": "B"
+  }
+]

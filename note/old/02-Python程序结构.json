@@ -1,0 +1,205 @@
+[
+  {
+    "id": 1,
+    "question": "下面( )语句不能完成1~10的累加功能,total初值为0。",
+    "options": [
+      "for i in(10,9,8,7,6,5,4,3,2,1):total+=i",
+      "for i in range(10,0):total+=i",
+      "for i in range(1,11):total+=i",
+      "for i in range(10,0,-1):total+=i"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": 2,
+    "question": "下面程序中语句print(i*j)共执行了( )次。\nfor i in range(5):\n    for j in range(2,5):\n    print(i*j)",
+    "options": ["12", "20", "15", "14"],
+    "answer": "C"
+  },
+  {
+    "id": 3,
+    "question": "下列程序的功能是( )。\nsum=0\nfor i in range(100):\n    if i%10:\n    continue\n    sum=sum+i\nprint(sum)",
+    "options": [
+      "计算0到9的和",
+      "计算0到99之间10的倍数的和",
+      "计算0到99之间不是10的倍数的和",
+      "计算0到99的和"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": 4,
+    "question": "设有如下程序段：\nk=10\nwhile k:\n    k=k-1\nprint(k)\n则下面语句描述正确的是（）。",
+    "options": [
+      "while 循环执行 9次",
+      "while 循环执行 11次",
+      "循环体语句一次也不执行",
+      "while 循环执行 10次"
+    ],
+    "answer": "D"
+  },
+  {
+    "id": 5,
+    "question": "在Python中实现多分支的最佳结构是（）。",
+    "options": ["if", "if-else", "while", "if-elif-else"],
+    "answer": "D"
+  },
+  {
+    "id": 6,
+    "question": "for i in range(10):...循环中i最大的是（）。",
+    "options": ["9", "都不对", "10", "11"],
+    "answer": "A"
+  },
+  {
+    "id": 7,
+    "question": "下面程序运行后,位于最后一行最后一列的值是（ ）。\nfor i in range(1,5):\n    j=0\n    while j<i:\n        print(j, end=\" \")\n        j+=1\n    print()",
+    "options": ["3", "4", "2", "1"],
+    "answer": "A"
+  },
+  {
+    "id": 8,
+    "question": "下面代码执行时,键盘输入“a,b,c,d”,则代码的输出结果是（ ）。\na= input().split(\",\")\nx = 0\nwhile x < len(a):\n    print(a[x], end=\"\")\n    x += 1",
+    "options": ["无输出", "abcd", "执行代码出错", "a,b,c,d"],
+    "answer": "B"
+  },
+  {
+    "id": 9,
+    "question": "执行下列语句的输出结果是（ ）。\nx = 'False'\nif not x:\n    print(True)\nelse:\n    print(False)",
+    "options": ["没有输出", "True", "语法错误", "False"],
+    "answer": "D"
+  },
+  {
+    "id": 10,
+    "question": "以下代码的输出结果是（ ）。\nif None:\n    print(\"Hello\")",
+    "options": ["没有输出", "语法错误", "Hello", "False"],
+    "answer": "A"
+  },
+  {
+    "id": 11,
+    "question": "运行下列语句产生的结果是（ ）。\nx=2; y=2.0\nif x=y:\n    print(相等)\nelse:\n    print(不相等)",
+    "options": ["相等", "不相等", "有语法错误", "整数与实数根本不能比较"],
+    "answer": "C"
+  },
+  {
+    "id": 12,
+    "question": "下面程序运行后输出是______。\na=[1,2,3,4,[5,6],[7,8,9]]\ns=0\nfor row in a:\n    if type(row)==list:\n        for elem in row:\n            s+=elem\n    else:\n        s+=row\nprint(s)",
+    "options": ["11", "24", "10", "45"],
+    "answer": "D"
+  },
+  {
+    "id": 13,
+    "question": "下面代码的输出结果是（ ）。\nfor i in \"Python\":\n    print(i, end=\" \")",
+    "options": ["Python", "P y t h o n", "P,y,t,h,o,n,", "P y t h o n"],
+    "answer": "B"
+  },
+  {
+    "id": 14,
+    "question": "下列代码的执行结果是（ ）。\nnum = 5\nif num >4:\n    print('num greater than 4')\nelse:\n    print('num less than 4')",
+    "options": ["True", "num less than 4", "False", "num greater than 4"],
+    "answer": "D"
+  },
+  {
+    "id": 15,
+    "question": "以下选项中能够实现 Python 循环结构的是（ ）。",
+    "options": ["loop", "do-while", "if", "while"],
+    "answer": "D"
+  },
+  {
+    "id": 16,
+    "question": "执行下列 Python 语句,下面说法正确的是( )。\nname, age=\"富田\",18",
+    "options": [
+      "程序报错,因为两个变量没有定义,不能直接赋值",
+      "定义两个变量, name 是字符串类型,值为\"富田\", age 是整型,值为 18",
+      "不能同时给两个变量赋值,程序报错",
+      "name 的值为\"富田\", age 的值为 18,两个变量的类型不一定"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": 17,
+    "question": "以下代码的输出结果是( )。\nwhile 8 == 8:\n    print('8')",
+    "options": ["输出 8 个 8", "语法错误", "无限次输出 8,直到程序被关闭", "输出一个 8"],
+    "answer": "C"
+  },
+  {
+    "id": 18,
+    "question": "为了给整型变量 x、y、z 赋初值 10,下面正确的 Python 语句是( )。",
+    "options": ["x=10 y=10 z=10", "x,y,z=10", "x=10,y=10,z=10", "x=y=z=10"],
+    "answer": "D"
+  },
+  {
+    "id": 19,
+    "question": "下面程序运行后,输出是( )。\nn=3\nm=4\na=[0]*n\nfor i in range(n):\n    a[i]=[0]*m\nprint(a[0])",
+    "options": ["[0, 0, 0]", "报错", "0", "[0, 0, 0, 0]"],
+    "answer": "D"
+  },
+  {
+    "id": 20,
+    "question": "下面程序运行后,倒数第二行打印出（ ）。\ni=5\nwhile i>=1:\n    num=1\n    for j in range(1,i+1):\n        print(num, end=\"xxx\")\n        num%=2\n    print()\n    i=1",
+    "options": ["1xxx2xxx", "1", "1xxx", "12"],
+    "answer": "A"
+  },
+  {
+    "id": 21,
+    "question": "下面程序运行后,最后一行有多少个“G”。\ni=1\nwhile i<=5:\n    num=1\n    for j in range(1,i+1):\n        print(num, end=\"G\")\n        num+=2\n    print()\n    i+=1",
+    "options": ["5", "4", "3", "6"],
+    "answer": "A"
+  },
+  {
+    "id": 22,
+    "question": "表达式 sum(range(5))的值为（）。",
+    "options": ["9", "15", "10", "5"],
+    "answer": "C"
+  },
+  {
+    "id": 23,
+    "question": "对 if…elif…elif…else 多分支结构,以下叙述正确的是（）。",
+    "options": [
+      "有可能一个分支都不执行",
+      "只能执行其中的一个分支",
+      "根据条件,有可能会执行多个分支",
+      "elif 也可以写成 else if 的形式"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": 24,
+    "question": "下面代码的输出结果是( )。\nfor s in \"Hello, World\":\n    if s==\",\": break\n    print(s, end=\"\")",
+    "options": ["Hello, World", "Hello", "World", "HelloWorld"],
+    "answer": "B"
+  },
+  {
+    "id": 25,
+    "question": "对语句 min(34,\"128\",97, key=str)叙述正确的是( )。",
+    "options": [
+      "该语句可以比较大小,结果是128",
+      "34,\"128\",97中既有整数又有字符串,该语句是不能比较大小的",
+      "该语句可以比较大小,结果是'128'",
+      "该语句可以比较大小,结果是34"
+    ],
+    "answer": "C"
+  },
+  {
+    "id": 26,
+    "question": "max(3,5,1,7,4)的结果是( )。",
+    "options": ["1", "5", "7", "3"],
+    "answer": "C"
+  },
+  {
+    "id": 27,
+    "question": "在变量s=0的前提下,以下哪个for语句不能完成1~10的累加功能。",
+    "options": [
+      "for d in range(0,11):\n    s+=d",
+      "for d in range(10,0,-1):\n    s+=d",
+      "for d in range(10,9,8,7,6,5,4,3,2,1):\n    s+=d",
+      "for d in range(1,11):\n    s+=d"
+    ],
+    "answer": "C"
+  },
+  {
+    "id": 28,
+    "question": "下列for循环执行后,输出结果的最后一行是（ ）。\nfor i in range(1,3):\n    for j in range(2,5):\n        print(i*j)",
+    "options": ["8", "15", "6", "2"],
+    "answer": "A"
+  }
+]

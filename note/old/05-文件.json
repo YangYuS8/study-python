@@ -1,0 +1,200 @@
+[
+  {
+    "id": 1,
+    "question": "下列代码可以成功执行,则 myfile.data文件的保存目录是哪一个选项?( ) open(\"myfile.data\", \"ab\")",
+    "options": [
+      "与程序文件在相同的目录下",
+      "C盘根目录下",
+      "由path路径指明",
+      "Python安装目录下"
+    ],
+    "answer": "A"
+  },
+  {
+    "id": 2,
+    "question": "执行下列语句后,文件1.dat中的内容是哪一项?( ) fo=open(\"1.dat\", \"w\") x=[\"open\",\"','read\",\"','write\"] fo.write(\" \".join(x)) fo.close()",
+    "options": [
+      "\"open\"\"read\"\"write\"",
+      "open read write",
+      "[\"open\",\"','read\",\"','write\"]",
+      "open, read, write"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": 3,
+    "question": "下列方法中,用于获取文件当前目录的是哪一个选项?( )",
+    "options": [
+      "os.getcwd()",
+      "os.mkdir()",
+      "os.listdir()",
+      "os.mkdir(path)"
+    ],
+    "answer": "A"
+  },
+  {
+    "id": 4,
+    "question": "以下选项中,不是 Python 中文件操作的相关函数的( )。",
+    "options": [
+      "load()",
+      "open()",
+      "read()",
+      "write()"
+    ],
+    "answer": "A"
+  },
+  {
+    "id": 5,
+    "question": "使用 open() 函数打开 Windows 操作系统的文件,路径名不正确的是哪一项?( )",
+    "options": [
+      "open(\"d:\\Python\\a.txt\",'w')",
+      "open(\"d:\\Python\\a.txt\",'w')",
+      "open(\"d:/Python/a.txt\",'w')",
+      "open(r\"d:\\Python\\a.txt\",'w')"
+    ],
+    "answer": "A"
+  },
+  {
+    "id": 6,
+    "question": "运行下面的程序，其输出结果为（ ）。\na=[1,2,3,4,5]\ntry:\n    print(a[5])\nexcept IndexError:\n    print(\"索引下标出界\")",
+    "options": [
+      "没有输出，抛出异常信息",
+      "5",
+      "索引下标出界",
+      "4"
+    ],
+    "answer": "C"
+  },
+  {
+    "id": 7,
+    "question": "运行下面的程序后，输出的最后一行信息是（ ）。\nls=[2,5,4,5,0,10]\ntry:\n    for i in range(10):\n        print(10/ls[i])\nexcept IndexError:\n    print(\"下标越界访问\")\nexcept ZeroDivisionError:\n    print(\"除零错误\")\nelse:\n    print(\"程序正常执行\")",
+    "options": [
+      "下标越界访问",
+      "除零错误",
+      "程序正常执行",
+      "1"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": 8,
+    "question": "以下选项中,不是Python中文操作的相关函数的( )。",
+    "options": [
+      "open()",
+      "writeline()",
+      "write()",
+      "readlines()"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": 9,
+    "question": "下列说法中,不正确的是哪一项?( )",
+    "options": [
+      "使用write()方法写入文件时,数据会追加到文件的末尾",
+      "使用read()方法可以一次性读取文件中的所有数据",
+      "使用readlines()方法可以一次性读取文件中的所有数据",
+      "以'w'模式打开一个可读/写的文件,如果文件存在会被覆盖"
+    ],
+    "answer": "A"
+  },
+  {
+    "id": 10,
+    "question": "下列Python关键字中，用于异常处理结构中捕获特定类型异常的是( )。",
+    "options": [
+      "while",
+      "def",
+      "pass",
+      "except"
+    ],
+    "answer": "D"
+  },
+  {
+    "id": 11,
+    "question": "当文件不存在时,下列哪种模式在使用 open() 方法打开文件时会报异常? ( )",
+    "options": [
+      "'w+'",
+      "'r'",
+      "'a'",
+      "'w'"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": 12,
+    "question": "模块os不能进行的操作( )。",
+    "options": [
+      "删除空文件夹",
+      "删除文件",
+      "复制文件",
+      "查询工作路径"
+    ],
+    "answer": "C"
+  },
+  {
+    "id": 13,
+    "question": "以下选项中,不是 Python 文件打开模式的( )。",
+    "options": [
+      "'r'",
+      "'w'",
+      "'+'",
+      "'c'"
+    ],
+    "answer": "D"
+  },
+  {
+    "id": 14,
+    "question": "对于特别大的文本文件,以下选项中描述正确的( )。",
+    "options": [
+      "Python无法处理特别大的文本文件",
+      "Python可以处理特别大的文件,不用特别关心",
+      "选择内存大的计算机,一次性读入再进行操作",
+      "使用for...in循环,分行读入,逐行处理"
+    ],
+    "answer": "D"
+  },
+  {
+    "id": 15,
+    "question": "file是文本文件对象,下列选项中,哪一项用于读取文件的一行? ( )",
+    "options": [
+      "file.read()",
+      "file.readline(80)",
+      "file.readlines()",
+      "file.readline()"
+    ],
+    "answer": "D"
+  },
+  {
+    "id": 16,
+    "question": "给出如下代码,以下哪一项是不正确的选项?()\nname = input(\"请输入要打开的文件:\")\nfi = open(name)\nfor line in fi.readlines():\n    print(line)\nfi.close()",
+    "options": [
+      "fi.readlines()的内容是一个序列,可以使用type(fi.readlines())查看其类型",
+      "用户输入文件名称,以文本文件方式读入文件的内容并逐行输出",
+      "代码for line in fi.readlines()可以写为 for line in fi",
+      "通过fi.readlines()方法将文件的全部内容读入一个字典 fi中"
+    ],
+    "answer": "D"
+  },
+  {
+    "id": 17,
+    "question": "以下关于Python文件打开模式的描述,错误的( )。",
+    "options": [
+      "覆盖写模式为w",
+      "创建写模式为n",
+      "追加写模式为a",
+      "只读模式为r"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": 18,
+    "question": "文件exam.txt与下面的程序在同一目录,其内容是一段文本: Learning Python,以下最可能的输出结果是哪一项? ( )\nfo=open(\"exam.txt\")\nprint(fo)\nfo.close()",
+    "options": [
+      "<_io.TextIOWrapper...>",
+      "exam.txt",
+      "exam",
+      "Learning Python"
+    ],
+    "answer": "A"
+  }
+]

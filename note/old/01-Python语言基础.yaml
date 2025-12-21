@@ -1,0 +1,256 @@
+- id: 1
+  question: 正确的标识符是( )。
+  options:
+  - my-name
+  - _item
+  - 2you
+  - abc*234
+  answer: B
+- id: 2
+  question: 关于Python字符串,下列说法错误的是（）。
+  options:
+  - 既可以用单引号,又可以用双引号创建字符串
+  - 字符串以0标志字符串结束
+  - 在三引号字符串中可以包含换行、回车等特殊字符
+  - 字符串长度为1的字符串
+  answer: B
+- id: 3
+  question: 已知a=3,b=4,c=5，与print("a=",a,"b=",b,"c=",c)语句输出结果不一样的是（）。
+  options:
+  - print('a={a} b={b} c={c}')
+  - print("a=%d b=%d c=%d" %(a,b,c))
+  - print(f'a={a} b={b} c={c}')
+  - print('a={0} b={1} c={2}'.format(3,4,5))
+  answer: A
+- id: 4
+  question: Python语句a=121+1.21;print(type(a))的输出结果是。
+  options:
+  - <class'long'>
+  - <class'double'>
+  - <class'int'>
+  - <class'float'>
+  answer: D
+- id: 5
+  question: 不是面向对象的程序设计语言是( )。
+  options:
+  - Python
+  - C++
+  - Java
+  - C
+  answer: D
+- id: 6
+  question: 下列能打印出smith\exam1\test.txt的语句是（）。
+  options:
+  - print("smith"\exam1"\test.txt")
+  - print("smith\\exam1\\test.txt")
+  - print("smith\"exam1\"test.txt")
+  - print("smith\exam1\test.txt")
+  answer: A
+- id: 7
+  question: Python表达式sqrt(4)*sqrt(9)的值为_。
+  options:
+  - 6
+  - 6.0
+  - 13.0
+  - 36.0
+  answer: B
+- id: 8
+  question: Python语句print(type(1/2))的输出结果是__。
+  options:
+  - <class 'double'>
+  - <class 'float'>
+  - <class 'int'>
+  - <class 'number'>
+  answer: C
+- id: 9
+  question: 语句x=input()执行时,如果从键盘输入 12 并按 Enter键,则x的值是( )。
+  options:
+  - 12
+  - (12)
+  - 12.0
+  - "12"
+  answer: D
+- id: 10
+  question: 在Python中关于单引号与双引号的说法,正确的( )。
+  options:
+  - 单引号用于短字符串,双引号用于长字符串
+  - 单引号针对变量,双引号针对常量
+  - Python中字符串初始化只能使用单引号
+  - 单、双引号在使用上没有区别
+  answer: D
+- id: 11
+  question: Python语句print(0xA+0xB)的输出结果是_。
+  options:
+  - 0xA+0xB
+  - 0xA0xB
+  - A+B
+  - 21
+  answer: D
+- id: 12
+  question: 语句 print(1,2,3, end=":")的输出结果是( )。
+  options:
+  - 123:
+  - 123
+  - 1:2:3
+  - 1,2,3
+  answer: A
+- id: 13
+  question: Python程序的扩展名是( )。
+  options:
+  - Jpg
+  - py
+  - docx
+  - exe
+  answer: B
+- id: 14
+  question: Python的输出函数是( )。
+  options:
+  - math()
+  - input()
+  - print()
+  - turtle()
+  answer: C
+- id: 15
+  question: ( )是不等长编码。
+  options:
+  - ASCII码
+  - 前三种编码都不是
+  - UTF-8码
+  - Big5码
+  answer: C
+- id: 16
+  question: Python语句print(type(1j))的输出结果是__。
+  options:
+  - <class 'float'>
+  - <class 'complex'>
+  - <class 'dict'>
+  - <class 'int'>
+  answer: B
+- id: 17
+  question: 若字符串s="atc"，则len(s)的值是（ ）。
+  options:
+  - 3
+  - 4
+  - 7
+  - 6
+  answer: A
+- id: 18
+  question: 有如下语句：n=6  print(eval("n***"))  执行后的输出是（ ）。
+  options:
+  - *'*'*'*'*'*'
+  - ******
+  - n*'*'
+  - 6*'*'
+  answer: B
+- id: 19
+  question: Python语句print(type(1/2))的输出结果是__。
+  options:
+  - <class 'float'>
+  - <class 'int'>
+  - <class 'number'>
+  - <class 'double'>
+  answer: A
+- id: 20
+  question: 下面代码的输出结果( )。a = "ac" b = "bd" c = a + b print(c)
+  options:
+  - dbac
+  - bdac
+  - acbd
+  - abcd
+  answer: C
+- id: 21
+  question: x是整数,与关系表达式x==0等价的表达式是( )。
+  options:
+  - x=0
+  - x!=1
+  - x
+  - not x
+  answer: D
+- id: 22
+  question: ( )表示后面部分是注释。
+  options:
+  - &
+  - %
+  - *
+  - #
+  answer: D
+- id: 23
+  question: Python语言的官方网站是( )。
+  options:
+  - www.python.com
+  - www.python.edu
+  - www.python.org
+  - pythonic.org
+  answer: C
+- id: 24
+  question: 下列数据类型中,Python不支持的是()。
+  options:
+  - int
+  - float
+  - char
+  - list
+  answer: C
+- id: 25
+  question: Python语句x='car'; y=2; print(x+y)的输出结果是__。
+  options:
+  - 语法错
+  - 'car2'
+  - 2
+  - 'carcar'
+  answer: A
+- id: 26
+  question: 已有x=5，以下不合法的表达式是（）。
+  options:
+  - 3<=x<=10
+  - x in [1,2,3,4,5]
+  - 3<=x and x<=10
+  - 5=x
+  answer: D
+- id: 27
+  question: 关于Python中的复数，下列说法错误的是（）。
+  options:
+  - 表示复数的语法是real+image j
+  - 方法real返回复数的实部
+  - 虚部必须加后缀j,且必须是小写
+  - 实部和虚部都是浮点数
+  answer: C
+- id: 28
+  question: Python语句print(chr(65))的运行结果是____。
+  options:
+  - a
+  - 6
+  - A
+  - 65
+  answer: C
+- id: 29
+  question: 要将3.1415926变成00003.14,应如何进行格式化输出？
+  options:
+  - "%8.2f"% 3.1415926
+  - "%0.2f"%3.1415926
+  - "%.2f"%3.1415926
+  - "%08.2f"%3.1415926
+  answer: D
+- id: 30
+  question: 语句 eval("2+4/5")执行后的输出结果是（）。
+  options:
+  - 2+4/5
+  - "2+4/5"
+  - 2.8
+  - 2
+  answer: C
+- id: 31
+  question: 在 Python中,变量的平方的表达式是（）。
+  options:
+  - a
+  - a*2
+  - a**2
+  - a^2
+  answer: C
+- id: 32
+  question: 字符串“我喜欢Python语言”的长度（）。
+  options:
+  - 14
+  - 11
+  - 22
+  - 16
+  answer: B

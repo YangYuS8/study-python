@@ -1,0 +1,266 @@
+[
+    {
+        "id": 1,
+        "question": "下面程序的运行结果是( )\ndef scope():\n    n=4\n    m=5\n    print(m,n, end='')\nn=5\nt=8\nscope()\nprint(n,t)",
+        "options": [
+            "4558",
+            "5458",
+            "5448",
+            "4548"
+        ],
+        "answer": "B"
+    },
+    {
+        "id": 2,
+        "question": "下面说法中错误的是( )。",
+        "options": [
+            "函数体至少有一个return语句",
+            "函数可以返回多个值",
+            "函数体可以包含多个return语句",
+            "函数体可以没有return语句"
+        ],
+        "answer": "A"
+    },
+    {
+        "id": 3,
+        "question": "area 是 tri模块中的一个函数,执行 from tri import area 后,调用 area()函数应该使用()。",
+        "options": [
+            "tri(area)",
+            "tri()",
+            "area()",
+            "tri.area()"
+        ],
+        "answer": "C"
+    },
+    {
+        "id": 4,
+        "question": "下面程序段的运行结果是()。\ndef fun(x,y):\n    if x>=y: return x\n    else: return fun(x+1,y-1) *2\nprint(fun(1,10))",
+        "options": [
+            "32",
+            "96",
+            "160",
+            "192"
+        ],
+        "answer": "D"
+    },
+    {
+        "id": 5,
+        "question": "在 Python 中,对于函数定义代码的理解,正确的是()。",
+        "options": [
+            "必须存在 return 语句",
+            "形参和 return 语句都是可有可无的",
+            "必须存在形参",
+            "形参和 return 语句要么都存在,要么都不存在"
+        ],
+        "answer": "B"
+    },
+    {
+        "id": 6,
+        "question": "下面程序段的运行结果是( )。\nx=10\ny=20\ndef swap():\n    x,y=y,x\nprint(x,y)",
+        "options": [
+            "20 10",
+            "10 10",
+            "10 20",
+            "语法错误"
+        ],
+        "answer": "C"
+    },
+    {
+        "id": 7,
+        "question": "下面程序段的运行结果是( )。\ndef f1(m):\n    s=m if m>0 else 1\n    def f2():\n        nonlocal s\n        s=s*2\n        return s\n    for s in range(4):\n        print(f2(), end='')\nf1(-1)",
+        "options": [
+            "出现异常",
+            "0246",
+            "2468",
+            "24816"
+        ],
+        "answer": "B"
+    },
+    {
+        "id": 8,
+        "question": "下面程序段的运行结果是( )。\ns=0\ndef f(n):\n    global s\n    for i in range(1,n+1):\n        s=s+i\n    return s\nprint(f(f(3)))",
+        "options": [
+            "出现异常",
+            "27",
+            "6",
+            "21"
+        ],
+        "answer": "B"
+    },
+    {
+        "id": 9,
+        "question": "下面程序的运行结果是( )。\na=10\ndef func():\n    global a\n    a=20\n    print(a, end='')\nfunc()\nprint(a)",
+        "options": [
+            "20 10",
+            "20 20",
+            "20",
+            "20"
+        ],
+        "answer": "B"
+    },
+    {
+        "id": 10,
+        "question": "下面程序段的运行结果是( )。\ndef c2(m):\n    s = 1\n    for i in range(1, m + 1): s *= 1\n    return s\ndef c1(m,n):\n    if m<n:\n        m,n=n,m\n    return c2(m)/c2(n)/c2(m-n)\nprint(c1(2,4))",
+        "options": [
+            "0",
+            "6.0",
+            "1",
+            "6"
+        ],
+        "answer": "D"
+    },
+    {
+        "id": 11,
+        "question": "下面程序段的运行结果是( )。\ndef fun(x,y):\n    x=y\n    y=x\nx=10\ny=20\nfun(x,y)\nprint(x,y)",
+        "options": [
+            "20 10",
+            "20 20",
+            "运行异常",
+            "10 20"
+        ],
+        "answer": "D"
+    },
+    {
+        "id": 12,
+        "question": "下面属于函数错误的调用方式的是( )。\ndef fun(a,b,c=3,d=4):\n    return(a+b-c-d)",
+        "options": [
+            "fun(1,2,5,c=3)",
+            "fun(1,2)",
+            "fun(1,b=2)",
+            "fun(1,2,3)"
+        ],
+        "answer": "A"
+    },
+    {
+        "id": 13,
+        "question": "下面程序段的运行结果是( )。\ndct={'a':60,'b':90,'c':70,'d':80}\nprint(sorted(dct, key=lambda x:dct[x], reverse=True))",
+        "options": [
+            "[90,80,70,60]",
+            "[80,70,90,60]",
+            "['d', 'c', 'b', 'a']",
+            "['b', 'd', 'c','a']"
+        ],
+        "answer": "D"
+    },
+    {
+        "id": 14,
+        "question": "print(type(lambda:3))的输出结果是()。",
+        "options": [
+            "<class 'NoneType'>",
+            "<class 'float'>",
+            "<class 'function'>",
+            "<class 'int'>"
+        ],
+        "answer": "C"
+    },
+    {
+        "id": 15,
+        "question": "下面程序的运行结果是( )。\nli=[1]\ndef scope1():\n    li.append(6)\n    print(li, end='')\nscope1()\nprint(li)",
+        "options": [
+            "[6] [1]",
+            "[6] [1,6]",
+            "[1,6] [1]",
+            "[1,6] [1,6]"
+        ],
+        "answer": "D"
+    },
+    {
+        "id": 16,
+        "question": "(lambda x:x%3==1 and x%5==1 and x%7==1)(211)的运行结果是( )。",
+        "options": [
+            "False",
+            "True",
+            "None",
+            "出现异常"
+        ],
+        "answer": "B"
+    },
+    {
+        "id": 17,
+        "question": "函数定义如下：\ndef f1(a,b,c):\n    print(a+b)\nnums=(1,2,3)\nf1(*nums)\n程序运行的结果是()。",
+        "options": [
+            "语法错",
+            "6",
+            "3",
+            "1"
+        ],
+        "answer": "C"
+    },
+    {
+        "id": 18,
+        "question": "判断一个函数的形参k是否是整型,应该使用下面的( )。",
+        "options": [
+            "k='int'",
+            "k is int",
+            "type(k)='int'",
+            "type(k)='int'"
+        ],
+        "answer": "D"
+    },
+    {
+        "id": 19,
+        "question": "定义一个求阶乘的函数的头部,应该使用下面的( )。",
+        "options": [
+            "def f(k) as int:",
+            "define fact():",
+            "def f(k):",
+            "def fact():"
+        ],
+        "answer": "C"
+    },
+    {
+        "id": 20,
+        "question": "函数可以改变()类型的形式参数变量绑定的实参。",
+        "options": [
+            "int",
+            "list",
+            "float",
+            "string"
+        ],
+        "answer": "B"
+    },
+    {
+        "id": 21,
+        "question": "在一个函数中若局部变量和全局变量同名,则()。",
+        "options": [
+            "全局变量屏蔽局部变量",
+            "局部变量屏蔽全局变量",
+            "全局变量和局部变量都不可用",
+            "程序错误"
+        ],
+        "answer": "B"
+    },
+    {
+        "id": 22,
+        "question": "下面程序段的运行结果是( )。\ndef fun(x):\n    return 2**x\nprint(fun(fun(3)))",
+        "options": [
+            "8",
+            "64",
+            "256",
+            "128"
+        ],
+        "answer": "C"
+    },
+    {
+        "id": 23,
+        "question": "下面程序的运行结果是( )。\ndef ins_sort_rec(seq, i):\n    if i ==0:return\n    ins_sort_rec(seq, i-1)\n    j=i\n    while j> 0 and seq[j-1]>seq[j]:\n        seq[j-1], seq[j] = seq[j], seq[j-1]\n        j=1\nseq=[3,-6,79,45,8,12,6,8]\nins_sort_rec(seq, len(seq)-1)\nprint(*seq)",
+        "options": [
+            "-6",
+            "-6 3 6 8 8 12 45 79",
+            "79 45 12 8 8 6 3 -6",
+            "79"
+        ],
+        "answer": "B"
+    },
+    {
+        "id": 24,
+        "question": "选择代码段设计为函数的一个重要原则是（）。",
+        "options": [
+            "需要提供参数",
+            "功能相对独立",
+            "不宜太长",
+            "具有返回值"
+        ],
+        "answer": "B"
+    }
+]

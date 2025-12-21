@@ -1,0 +1,585 @@
+[
+    {
+        "id": 1,
+        "question": "ls=[\"abc\",\"dd\",[3,4]]则要获取第三个元素中的第一个值3,使用表达式( )。",
+        "options": [
+            "ls[3][1]",
+            "ls[3,1]",
+            "ls[2][0]",
+            "ls[3]"
+        ],
+        "answer": "C"
+    },
+    {
+        "id": 2,
+        "question": "下列属于可变类型的是( )。",
+        "options": [
+            "字符串",
+            "元组",
+            "数字",
+            "列表"
+        ],
+        "answer": "D"
+    },
+    {
+        "id": 3,
+        "question": "有列表 x=[1,2,3],关于操作x[len(x):]=[\"a\",\"b\"],以下叙述正确的是( )。",
+        "options": [
+            "报下标越界错误",
+            "报数据类型不一致错误",
+            "列表x变为[a,b,1,2,3]",
+            "列表x变为[1,2,3,'a','b']"
+        ],
+        "answer": "D"
+    },
+    {
+        "id": 4,
+        "question": "如果list1=[1,2,3,4,5,4,3,2,1],那么list1[:-1]是( )。",
+        "options": [
+            "[1,2,3,4,5,4,3,2,1]",
+            "[1,2,3,4,5,4,3,2]",
+            "0",
+            "[0,1,2,3,4,3,2,1,0]"
+        ],
+        "answer": "B"
+    },
+    {
+        "id": 5,
+        "question": "执行arr=list(range(0,6,3))后，arr的值为（）。",
+        "options": [
+            "[0,3]",
+            "[0,3,6]",
+            "[0,1,2,3]",
+            "[3,4,5]"
+        ],
+        "answer": "A"
+    },
+    {
+        "id": 6,
+        "question": "代码 s = \"Alice\", print(s[::-1])的输出结果( )。",
+        "options": [
+            "Alice",
+            "ecilA",
+            "Alice",
+            "ALICE"
+        ],
+        "answer": "B"
+    },
+    {
+        "id": 7,
+        "question": "列表推导式[i*10+j for i in range(1,4) for j in range(1,4) if i!=j]创建的列表是( )。",
+        "options": [
+            "[11,12,13,22,21,23,33,31,32]",
+            "[134,123,241,213,341,312,423,431]",
+            "[12,13,21,23,31,32]",
+            "[123,132,231,213,312,321]"
+        ],
+        "answer": "C"
+    },
+    {
+        "id": 8,
+        "question": "有如下一段程序：\nd={'Python':1,'C++':2,'Java':3}\nfor k in d:\n    print(\"%s:%d!\"%(k,d[k]))\n则上述程序执行后的输出结果为( )。",
+        "options": [
+            "Python\nC++\nJava",
+            "Python:1\nC++ : 2\nJava:3",
+            "以上都不对",
+            "1: Python\n2:C++\n3: Java"
+        ],
+        "answer": "B"
+    },
+    {
+        "id": 9,
+        "question": "以下都是不可变数据类型的是（ ）。",
+        "options": [
+            "int、dict、tuple、set",
+            "int、str、tuple、bool",
+            "float、str、tuple、dict",
+            "int、str、tuple、set"
+        ],
+        "answer": "B"
+    },
+    {
+        "id": 10,
+        "question": "已知 x = {1:2,2:3}，那么表达式 x.get(3,4) 的值为（ ）。",
+        "options": [
+            "4",
+            "3",
+            "2",
+            "0"
+        ],
+        "answer": "A"
+    },
+    {
+        "id": 11,
+        "question": "以下（ ）会得到 {1,2,3}。",
+        "options": [
+            "set(\"123\")",
+            "以上都不是",
+            "tuple(\"123\")",
+            "list(\"123\")"
+        ],
+        "answer": "B"
+    },
+    {
+        "id": 12,
+        "question": "执行以下代码的结果（）。\nfoo = {1,3,3,4}\ntype(foo)",
+        "options": [
+            "set",
+            "dict",
+            "object",
+            "tuple"
+        ],
+        "answer": "A"
+    },
+    {
+        "id": 13,
+        "question": "以下( )可以创建一个空的集合。",
+        "options": [
+            "{}",
+            "{}",
+            "[]",
+            "set()"
+        ],
+        "answer": "D"
+    },
+    {
+        "id": 14,
+        "question": "执行以下代码的结果（）。\nurl = 'deeplearning.ai'\nurl[-3:-1] = '.com'",
+        "options": [
+            "异常",
+            "'deeplearning'",
+            "'deeplearning.com''",
+            "'deeplearning.com'"
+        ],
+        "answer": "A"
+    },
+    {
+        "id": 15,
+        "question": "( )是一个可以修改数据项的序列类型。",
+        "options": [
+            "字典",
+            "元组",
+            "列表",
+            "字符串"
+        ],
+        "answer": "C"
+    },
+    {
+        "id": 16,
+        "question": "要把5加到列表lst的末尾,用的是( )",
+        "options": [
+            "lst.append(5)",
+            "lst.addEnd(5)",
+            "lst.add(5)",
+            "lst.addLast(5)"
+        ],
+        "answer": "A"
+    },
+    {
+        "id": 17,
+        "question": "对于集合s,以下( )是不存在的。",
+        "options": [
+            "max(s)",
+            "s-{1}",
+            "s.append(1)",
+            "len(s)"
+        ],
+        "answer": "C"
+    },
+    {
+        "id": 18,
+        "question": "下列代码的输出是（ ）\nfile_list = ['foo.py', 'copy.txt', 'spam.py', 'happy.png', 'test.pyc']\npy_list = []\nfor file in file_list:\n    if file.endswith('.py'):\n        py_list.append(file)\nprint(py_list)",
+        "options": [
+            "['copy.txt', 'happy.png']",
+            "['foo.py', 'spam.py']",
+            "['foo.py', 'copy.py', 'spam.py', 'happy.py', 'test.py']",
+            "['foo.py', 'spam.py', 'test.pyc']"
+        ],
+        "answer": "B"
+    },
+    {
+        "id": 19,
+        "question": "下面（ ）语句能够让列表 names=['Dick','Nancy','Roger']中的名称按行输出。",
+        "options": [
+            "print(names.append(\"\\n\"))",
+            "print(\"\\n\".join(names))",
+            "print(names.join(\"\\n\"))",
+            "print(names.join(\"%s\\n\", names))"
+        ],
+        "answer": "B"
+    },
+    {
+        "id": 20,
+        "question": "由花括号把元素括起来,元素与元素之间也用逗号分隔,且其中的元素是唯一的,即不存在重复的元素的是______类型。",
+        "options": [
+            "集合",
+            "字典",
+            "列表",
+            "元组"
+        ],
+        "answer": "A"
+    },
+    {
+        "id": 21,
+        "question": "dict([['one', 1], ['two', 2]])的返回值( )。",
+        "options": [
+            "{ 'one':1,'two':2 }",
+            "[{2,3}]",
+            "[ ['one':1,'two':2] ]",
+            "[ 'one','two' ]"
+        ],
+        "answer": "A"
+    },
+    {
+        "id": 22,
+        "question": "执行以下代码的结果( )。\nnames = ['Amir', 'Barry', 'Chales', 'David']\nnames[-1][-1]",
+        "options": [
+            "'[David']",
+            "'David'",
+            "'d'",
+            "['d']"
+        ],
+        "answer": "C"
+    },
+    {
+        "id": 23,
+        "question": "字典的最大特点( )。",
+        "options": [
+            "成员唯一",
+            "键-值对应",
+            "有序存储",
+            "可被迭代"
+        ],
+        "answer": "B"
+    },
+    {
+        "id": 24,
+        "question": "以下Python数据类型中不支持索引访问的( )。",
+        "options": [
+            "列表",
+            "字符串",
+            "元组",
+            "集合"
+        ],
+        "answer": "D"
+    },
+    {
+        "id": 25,
+        "question": "执行以下代码的结果( )。\nlist1 = [1, 2, 3, 4]\nlist2 = [1, 2, 7, 8]\nlen(list1 + list2)",
+        "options": [
+            "8",
+            "5",
+            "2",
+            "4"
+        ],
+        "answer": "A"
+    },
+    {
+        "id": 26,
+        "question": "对于两个集合s1和s2,s1<s2的意思是（）",
+        "options": [
+            "判断s2是否为s1的真子集",
+            "判断s1是否为s2的真子集",
+            "判断s1的元素时是否都比s2的小",
+            "判断s1的大小是否小于s2的大小"
+        ],
+        "answer": "B"
+    },
+    {
+        "id": 27,
+        "question": "表达式{1,2,3}^{2,3,4}的值为（）",
+        "options": [
+            "{2,3}",
+            "{1,4}",
+            "{4}",
+            "{1}"
+        ],
+        "answer": "D"
+    },
+    {
+        "id": 28,
+        "question": "字符串函数 strip的作用（）。",
+        "options": [
+            "去掉字符串两侧空格符或指定字符",
+            "替换字符串中特定字符",
+            "按照指定字符分隔字符串为数组",
+            "连接两个字符串"
+        ],
+        "answer": "A"
+    },
+    {
+        "id": 29,
+        "question": "对象t=(1, 3.7, 5+2j, 'test'),以下操作正确的是( )。",
+        "options": [
+            "list(t)",
+            "t.count()",
+            "t.remove(0)",
+            "t.sort()"
+        ],
+        "answer": "A"
+    },
+    {
+        "id": 30,
+        "question": "以下不能创建字典的语句是( )。",
+        "options": [
+            "dict1={}",
+            "dict3={[1,2,3]:\"uestc\"}",
+            "dict4={(1,2,3):\"uestc\"}",
+            "dict2={3:5}"
+        ],
+        "answer": "B"
+    },
+    {
+        "id": 31,
+        "question": "下面程序运行后,输出是( )。\nL3=[[(i,j) for i in range(1,6)] for j in range(1,6)]\nprint(L3[2][1])",
+        "options": [
+            "(1, 2)",
+            "(2, 1)",
+            "(2, 3)",
+            "(3, 2)"
+        ],
+        "answer": "C"
+    },
+    {
+        "id": 32,
+        "question": "执行以下代码的结果( )。\nnames=['Amir','Betty','Chales','dagger']\nnames.index(\"Edward\")",
+        "options": [
+            "异常报错",
+            "-1",
+            "0",
+            "4"
+        ],
+        "answer": "A"
+    },
+    {
+        "id": 33,
+        "question": "执行以下代码的结果( )。\nnumbers = [1, 2, 3, 4]\nnumbers.append([5,6,7,8])\nlen(numbers)",
+        "options": [
+            "8",
+            "4",
+            "12",
+            "5"
+        ],
+        "answer": "D"
+    },
+    {
+        "id": 34,
+        "question": "利用索引获取字典的值,以下代码的运行结果是( )。\nd = {\"大海\":\"蓝色\",\"天空\":\"灰色\",\"大地\":\"黑色\"}\nprint(d[\"大地\"], d.get(\"大地\",\"黄色\"))",
+        "options": [
+            "黑色灰色",
+            "黑色黑色",
+            "黑色蓝色",
+            "黑色黄色"
+        ],
+        "answer": "B"
+    },
+    {
+        "id": 35,
+        "question": "在print(a[2])可执行的前提下，如果a[2]=3可执行,那么a不可能是（）。",
+        "options": [
+            "元组",
+            "字典",
+            "列表",
+            "集合"
+        ],
+        "answer": "A"
+    },
+    {
+        "id": 36,
+        "question": "有列表 x=[1,2,3,2,3],对于操作 x.remove(3),以下叙述正确的是( )。",
+        "options": [
+            "等价于 x.clear(2)",
+            "等价于 del x[3]",
+            "等价于 x[2:3]=[]",
+            "等价于 x.pop(3)"
+        ],
+        "answer": "C"
+    },
+    {
+        "id": 37,
+        "question": "执行以下代码的结果( )。\nd1 = { '1':1, '2':2 , '3':3, '4':4, '5':5}\nd2 = { '1':10, '3':30}\nd1.update(d2)\nsum(d1.values())",
+        "options": [
+            "54",
+            "40",
+            "15",
+            "51"
+        ],
+        "answer": "D"
+    },
+    {
+        "id": 38,
+        "question": "执行代码 len([1,2,3, None,(),[],]) 的结果( )。",
+        "options": [
+            "5",
+            "7",
+            "6",
+            "4"
+        ],
+        "answer": "C"
+    },
+    {
+        "id": 39,
+        "question": "字符串s是一个字符序列,如何访问字符串s中从右向左第3个字符( )。",
+        "options": [
+            "s[-3]",
+            "s[0:2]",
+            "s[2]",
+            "s[3]"
+        ],
+        "answer": "A"
+    },
+    {
+        "id": 40,
+        "question": "表达式{1,2,3}&{2,3,4}的值为（）",
+        "options": [
+            "{2,3}",
+            "{1,2,3,2,3,4}",
+            "{1,2,2,3,3,4}",
+            "{1,2,3,4}"
+        ],
+        "answer": "A"
+    },
+    {
+        "id": 41,
+        "question": "已知列表对象 x = ['11', '2', '30'], 则表达式 max(x, key=len) 的值为（）。",
+        "options": [
+            "3",
+            "'30'",
+            "'11'",
+            "2"
+        ],
+        "answer": "C"
+    },
+    {
+        "id": 42,
+        "question": "执行代码 foo={1,5,2,3,4,2};len(foo)的结果( )。",
+        "options": [
+            "3",
+            "0",
+            "5",
+            "6"
+        ],
+        "answer": "C"
+    },
+    {
+        "id": 43,
+        "question": "设有列表 ls = ['a','b','c','d','e'],则与操作 ls.extend(['f','g'])等价的是( )。",
+        "options": [
+            "ls[5:]=['f','g']",
+            "ls.append(['f','g'])",
+            "ls.insert(5,'f','g')",
+            "ls.insert(5,['f','g'])"
+        ],
+        "answer": "A"
+    },
+    {
+        "id": 44,
+        "question": "列表L1=[1,2,3],则表达式1+L1的结果( )。",
+        "options": [
+            "[1,2,4]",
+            "异常",
+            "[2,3,4]",
+            "[1,1,2,3]"
+        ],
+        "answer": "B"
+    },
+    {
+        "id": 45,
+        "question": "设有元组 x=(1,2,3)，执行 x[:1] 操作后，以下叙述正确的是（ ）。",
+        "options": [
+            "元组不支持切片操作",
+            "该操作得到一个整数2",
+            "该操作得到一个元组(1,)",
+            "该操作得到一个列表[1]"
+        ],
+        "answer": "C"
+    },
+    {
+        "id": 46,
+        "question": "list(\"abcd\")的结果是（ ）",
+        "options": [
+            "['abcd']",
+            "['cd']",
+            "['a','b','c','d']",
+            "['ab']"
+        ],
+        "answer": "C"
+    },
+    {
+        "id": 47,
+        "question": "执行以下代码的结果（ ）。\nnumbers = [1, 2, 3, 4]\nnumbers.extend([5,6,7,8])\nlen(numbers)",
+        "options": [
+            "4",
+            "12",
+            "5",
+            "8"
+        ],
+        "answer": "D"
+    },
+    {
+        "id": 48,
+        "question": "下面代码的输出结果( )。\ns1 = \"The python language is a scripting language.\"\ns1.replace('scripting','general')\nprint(s1)",
+        "options": [
+            "系统报错",
+            "The python language is a general language.",
+            "The python language is a scripting language.",
+            "['The', 'python', 'language ', 'is','a', 'scripting', 'language.']"
+        ],
+        "answer": "C"
+    },
+    {
+        "id": 49,
+        "question": "执行 a=1,2,3,4 语句的结果是( )。",
+        "options": [
+            "a 获得一个元组",
+            "a 获得一个列表",
+            "a 获得一个整数",
+            "出现异常"
+        ],
+        "answer": "A"
+    },
+    {
+        "id": 50,
+        "question": "s = 'Python is beautiful!',可以输出 python 的语句( )。",
+        "options": [
+            "print(s[-21:-14].lower)",
+            "print(s[-14])",
+            "print(s[0:6])",
+            "print(s[0:6].lower())"
+        ],
+        "answer": "D"
+    },
+    {
+        "id": 51,
+        "question": "统计字符串、列表、元组等序列对象的元素个数的函数是（）。",
+        "options": [
+            "len",
+            "count",
+            "total",
+            "calc"
+        ],
+        "answer": "A"
+    },
+    {
+        "id": 52,
+        "question": "表达式{1, 2, 3} | {2, 3, 4}的值为（）",
+        "options": [
+            "{1, 2, 2, 3, 3, 4}",
+            "{1, 2, 3, 2, 3, 4}",
+            "{1, 2, 3, 4}",
+            "{2, 3}"
+        ],
+        "answer": "C"
+    },
+    {
+        "id": 53,
+        "question": "执行以下代码的结果（ ）。\nfoo = {1: '1', 2: '2', 3: '3'}\ndel foo[1]\nfoo[1] = '10'\ndel foo[2]\nlen(foo)",
+        "options": [
+            "1",
+            "0",
+            "3",
+            "2"
+        ],
+        "answer": "D"
+    }
+]
